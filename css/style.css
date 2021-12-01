@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+i.ready {
+    color: green;
+}
+i.notReady {
+    color: red;
+}
+
+.body-add-btn {
+    margin-bottom: 25px;
+}
+
+.loginLine {
+    text-align: right;
+}
+
+.sortTaskBtn {
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    .sortTaskBtn {
+        position: relative;
+        top: 32px;
+    }
+}
